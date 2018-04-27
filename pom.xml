@@ -67,6 +67,8 @@
             <version>2.13</version>
             <configuration>
               <properties>
+			<maven.compiler.source>1.6</maven.compiler.source>
+			<maven.compiler.target>1.6</maven.compiler.target>
                 <property>
                   <name>listener</name>
                   <value>org.sonar.java.jacoco.JUnitListener</value>
